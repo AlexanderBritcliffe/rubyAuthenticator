@@ -36,6 +36,8 @@ while attempts < 4
   attempts += 1
 end
 
+puts "You have exceeded the number of attempts" if attempts == 4
+
 # line 18...during each loop the number of attempts
  # increases by 1 and at one point it gets to 4
  # which is not less than 4 so it breaks out of loop
